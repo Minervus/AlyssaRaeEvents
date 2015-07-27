@@ -22,6 +22,49 @@ a:hover {
 	height: 700px;
 }
 
+#topHalfWed {
+	background: url(images/shoes.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	padding-bottom: 20px; 
+	padding-top: 20px; 
+	background-attachment: fixed; 
+	height: 700px;
+
+}
+
+#wedText {
+	text-align: center; 
+	color: #9900FF;
+	border: solid;
+	border-width: 2px; 
+	width: 350px;
+	margin-left: 35%;
+	margin-top: 15%;
+	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+
+}
+
+#bottomHalfWed {
+	background: url('images/wedRing.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	padding-bottom: 50px; 
+	padding-top: 50px;
+	background-attachment: fixed; 
+	height: 700px; 
+}
+
+#bottomHalfWed1 {
+	background: url('images/champs.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	padding-bottom: 50px; 
+	padding-top: 50px;
+	background-attachment: fixed; 
+	height: 700px; 
+}
+
 #aboutBg {
 	background: url(images/cupcakes.jpg);
 	background-size: cover; 
@@ -43,15 +86,29 @@ a:hover {
 
 }
 
+#galleryWrap {
+	background: url(images/cupcakes.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	padding-bottom: 20px; 
+	padding-top: 20px; 
+	background-attachment: fixed; 
+	height: 700px;
+
+}
+
+
 .nav {
-	
 	background-color: #FFFFFF; 
 	width: 100%;  
 	padding-left: 100px; 
 	padding-right: 50px; 
 	margin-right: 0px; 
 	margin-left: 0px; 
-
+	padding: 20px; 
+	margin: 0px; 
+	position: fixed;
+	z-index: 1; 
 }
 
 .nav li {
@@ -79,7 +136,7 @@ a:hover {
 }
 
 #topSection {
-	
+	margin-top: 10%; 
 	height: 300px; 
 	background-color: rgba(146, 94, 168, 0); 
 	padding-bottom: 50px; 
@@ -90,6 +147,7 @@ a:hover {
 	width: 400px; 
 	height: 200px; 
 	opacity: 0.5;
+	box-shadow: 5px 5px 5px #FFFFFF;  
 } 
 
 #hero {
@@ -100,22 +158,30 @@ a:hover {
 
 #heroLinks {
 	text-align: center;
+	padding: 0px;
+	margin:0px; 
+
 }
 
 #heroLinks a{
-	margin: 0px; 
+	margin-top: 20px; 
 	padding-left: 0px; 
 	padding-top: 20px; 
 	padding-bottom: 20px; 
 	text-align: center;
-	padding-right: 25px; 
+	padding-right: 25px;
+
 
 }
 
 #heroLabels li{
 	margin:22px; 
 	color: #FFFFFF;
-	font-size: 30px; 
+	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+	font-size: 40px; 
+	position: relative;
+	top:-160px;
+
 
 }
 
@@ -124,6 +190,8 @@ a:hover {
 	height: 80px;
 	padding: 10px;  
 	text-align: center;
+	opacity: 0.2;
+
 }
 
 
@@ -131,6 +199,7 @@ a:hover {
 	display: inline; 
 	padding: 10px;	
 	text-align: center;
+
 }
 
 .event-banner {
@@ -182,7 +251,7 @@ a:hover {
 #aboutCompany {
 	background-color: rgba(146, 94, 168, 0.6);
 	text-align: center; 
-
+	box-shadow: 5px 5px 5px #888888;
 
 }
 
@@ -197,7 +266,8 @@ a:hover {
 } 
 
 #aboutMeWrap{
-	background-color: rgba(96, 204, 155,0.7);  	
+	background-color: rgba(96, 204, 155,0.7);  
+	box-shadow: 5px 5px 5px #888888;	
 }
 
 
@@ -264,6 +334,7 @@ a:hover {
 	background-position: center; 
 	background-size: 50% 50%; 
 	background-repeat: no-repeat; 
+	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
 } 
 
 .contactCompany img {
@@ -293,6 +364,7 @@ a:hover {
 	height: 200px; 
 	padding: 50px; 
 	color: #FFFFFF; 
+	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
 } 
 
 #eventText {
@@ -303,18 +375,21 @@ a:hover {
 	background-color: #EAD2F4; 
 	padding-top: 20px; 
 	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+	box-shadow: 5px 5px 5px #888888;
 }
 
 #eventServices {
 	background-color: rgba(255, 228, 171, 0.7);
 	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
 	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px #FFFFFF;  
 }
 
 #weddingServices {
 	background-color: rgba(96, 204, 155,0.7); 
 	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
 	margin-bottom: 50px; 
+	box-shadow: 5px 5px 10px #FFFFFF;  
 }
 
 
@@ -337,7 +412,8 @@ a:hover {
 	padding: 10px; 
 	margin: 20px; 
 	padding-left: 20px; 
-	padding-right: 20px; 
+	padding-right: 20px;
+	box-shadow: 5px 5px 5px #888888; 
 }
 
 .galleryWrapper h3{
@@ -353,3 +429,19 @@ a:hover {
 
 }
 
+#wedServices1 {
+	height: 500px; 
+
+	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+	font-size: 20px; 
+
+}
+
+#siteMap {
+	font-family: "Fakt",AvenirNext-Medium,"Segoe UI",sans-serif;
+	font-size: 20px; 
+	background-color: rgba(146, 94, 168, 0.2);
+	box-shadow: 5px 5px 5px #888888;
+	padding: 20px; 
+
+}

@@ -7,15 +7,17 @@
   </head>
   <body>
 
-<div class="container">
+<div class="navbar navbar-default">
     <div class="nav">
-        <img src="images/purplecirclelogo.jpg" alt="logo" height="60" width="120">
+        <a href="newIndex.html"><img src="images/purplecirclelogo.jpg" alt="logo" height="60" width="120"></a>
 			<ul class="pull-right">
-			  <li><a href="#">Weddings</a></li>
-			  <li><a href="#">Events</a></li>
-			  <li><a href="gallery.html">Galleries</a></li>
-			  <li><a href="about.html">About</a></li>
-			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="newIndex.html">Home</a></li>
+		        <li><a href="wedding.html">Weddings</a></li>
+		        <li><a href="#">Events</a></li>
+		        <li><a href="gallery.html">Galleries</a></li>
+		        <li><a href="about.html">About</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+		        <li><a href="siteMap.html">Site Map</a></li>
 			</ul>
       </div>
     </div>
@@ -121,7 +123,7 @@
 					<li><a href="newIndex.html">Home</a></li>
                       <li><a href="#">Weddings</a></li>
                       <li><a href="#">Events</a></li>
-                      <li><a href="#">Galleries</a></li>
+                      <li><a href="gallery.html">Galleries</a></li>
                       <li><a href="about.html">About</a></li>
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -138,11 +140,11 @@
 				<div class="col-md-4">
                     <div class="pull-right" id="socialmedia">
                         <ul>
-                        <li><a href="#"><img src="images/icons/facebook.png"></a></li>
-                        <li><a href="#"><img src="images/icons/twitter.png"></a></li>
-                        <li><a href="#"><img src="images/icons/instagram.png"></a></li>
-                        <li><a href="#"><img src="images/icons/linkedin.png"></a></li>s
-						<li><a href="#"><img src="images/icons/pinterest.png"></a></li>
+                        <li><a href="http://www.facebook.com/AlyssaRaeEventConsulting"><img src="images/icons/facebook.png"></a></li>
+                        <li><a href="https://twitter.com/RaeEvents"><img src="images/icons/twitter.png"></a></li>
+                        <li><a href="https://instagram.com/alyssarae.events/"><img src="images/icons/instagram.png"></a></li>
+                        <li><a href="https://ca.linkedin.com/in/alyssaraelee"><img src="images/icons/linkedin.png"></a></li>
+						<li><a href="https://www.pinterest.com/alyssaraeevents/"><img src="images/icons/pinterest.png"></a></li>
                       </ul>
                     </div> 
 				</div>
@@ -164,37 +166,38 @@
 
 	
 		$("#wedLabel").hide();
-		$("#wedLink").mouseover(function() {
-			$("#wedLabel").show(2000); 
+		$("#wedLink img").mouseover(function() {
+			$("#wedLabel").fadeIn(50);
+			$("#wedLink").fadeTo(500,1);
 		});
-		$("#wedLink").mouseout(function() {
-			$("#wedLabel").hide(100); 
+		$("#wedLink img").mouseout(function() {
+			$("#wedLabel").fadeOut(10); 
 		});
 
 
 
 		$("#eventLabel").hide();
-		$("#eventLink").mouseover(function() {
-			$("#eventLabel").show(200); 
+		$("#eventLink img").mouseover(function() {
+			$("#eventLabel").fadeIn(50); 
 		});
-		$("#eventLink").mouseout(function() {
-			$("#eventLabel").hide(200); 
+		$("#eventLink img").mouseout(function() {
+			$("#eventLabel").fadeOut(10); 
 		});
 
 		$("#galleryLabel").hide();
-		$("#galleryLink").mouseover(function() {
-			$("#galleryLabel").show(200); 
+		$("#galleryLink img").mouseover(function() {
+			$("#galleryLabel").fadeIn(50); 
 		});
-		$("#galleryLink").mouseout(function() {
-			$("#galleryLabel").hide(200); 
+		$("#galleryLink img").mouseout(function() {
+			$("#galleryLabel").fadeOut(10); 
 		});
 		
 		$("#contactLabel").hide();
-		$("#contactLink").mouseover(function() {
-			$("#contactLabel").show(200); 
+		$("#contactLink img").mouseover(function() {
+			$("#contactLabel").fadeIn(50); 
 		});
-		$("#contactLink").mouseout(function() {
-			$("#contactLabel").hide(200); 
+		$("#contactLink img").mouseout(function() {
+			$("#contactLabel").fadeOut(10); 
 		});
 
 	});
